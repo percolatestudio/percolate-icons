@@ -1,4 +1,4 @@
-var Version = "v1";
+var Version = "v1.1";
 
 Package.describe({
   summary: "Icons for Percolate, version" + Version
