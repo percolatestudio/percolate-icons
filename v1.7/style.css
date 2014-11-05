@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'percolate';
-	src:url('/packages/percolate-icons/v1.7/fonts/percolate.eot?4nku5n');
-	src:url('/packages/percolate-icons/v1.7/fonts/percolate.eot?#iefix4nku5n') format('embedded-opentype'),
-		url('/packages/percolate-icons/v1.7/fonts/percolate.woff?4nku5n') format('woff'),
-		url('/packages/percolate-icons/v1.7/fonts/percolate.ttf?4nku5n') format('truetype'),
-		url('/packages/percolate-icons/v1.7/fonts/percolate.svg?4nku5n#percolate') format('svg');
+	src:url('fonts/percolate.eot?g2rn6w');
+	src:url('fonts/percolate.eot?#iefixg2rn6w') format('embedded-opentype'),
+		url('fonts/percolate.woff?g2rn6w') format('woff'),
+		url('fonts/percolate.ttf?g2rn6w') format('truetype'),
+		url('fonts/percolate.svg?g2rn6w#percolate') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
