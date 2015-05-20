@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 
 var Version = "v1.9";
+=======
+var Version = "v2.0";
+>>>>>>> Stashed changes
 
 Package.describe({
   summary: "Icons for Percolate, version" + Version
