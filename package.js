@@ -1,4 +1,4 @@
-var Version = "v2.3";
+var Version = "v2.4";
 
 Package.describe({
   summary: 'Icons for Percolate, version' + Version
@@ -13,5 +13,6 @@ Package.onUse(function(api) {
   api.addFiles(path.join(assetPath, 'fonts', 'percolate.ttf'), 'client', {isAsset: true});
   api.addFiles(path.join(assetPath, 'fonts', 'percolate.woff'), 'client', {isAsset: true});
 
-  api.addFiles(path.join('edited-style.css'), 'client');
+  api.use(['less']);
+  api.addFiles(path.join('edited-style.less'), 'client');
 });
