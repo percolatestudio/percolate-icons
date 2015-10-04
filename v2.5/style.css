@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'percolate';
-	src:url('fonts/percolate.eot?-ipj868');
-	src:url('fonts/percolate.eot?#iefix-ipj868') format('embedded-opentype'),
-		url('fonts/percolate.ttf?-ipj868') format('truetype'),
-		url('fonts/percolate.woff?-ipj868') format('woff'),
-		url('fonts/percolate.svg?-ipj868#percolate') format('svg');
+	src:url('fonts/percolate.eot?qhgp0c');
+	src:url('fonts/percolate.eot?qhgp0c#iefix') format('embedded-opentype'),
+		url('fonts/percolate.ttf?qhgp0c') format('truetype'),
+		url('fonts/percolate.woff?qhgp0c') format('woff'),
+		url('fonts/percolate.svg?qhgp0c#percolate') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +23,24 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-atmosphere:before {
+	content: "\e671";
+}
+.icon-browser:before {
+	content: "\e672";
+}
+.icon-database:before {
+	content: "\e673";
+}
+.icon-expand-alt:before {
+	content: "\e674";
+}
+.icon-mobile:before {
+	content: "\e675";
+}
+.icon-watch:before {
+	content: "\e676";
+}
 .icon-home:before {
 	content: "\e600";
 }
@@ -365,3 +383,4 @@
 .icon-meteor:before {
 	content: "\e670";
 }
+
