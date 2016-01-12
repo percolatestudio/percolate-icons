@@ -1,7 +1,11 @@
 var Version = 'v2.8';
 
 Package.describe({
-  summary: 'Icons for Percolate, version' + Version
+  version: "0.0.1",
+  name: "percolate:icons",
+  summary: 'Icons for Percolate, version' + Version,
+  git: "https://github.com/percolatestudio/percolate-icons",
+  documentation: "README.md"
 });
 
 Package.onUse(function(api) {
