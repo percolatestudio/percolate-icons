@@ -1,7 +1,7 @@
-var Version = 'v2.8';
+var Version = 'v2.9';
 
 Package.describe({
-  version: "0.0.7",
+  version: "0.0.8",
   name: "percolate:icons",
   summary: 'Icons for Percolate, version ' + Version,
   git: "https://github.com/percolatestudio/percolate-icons",
@@ -10,7 +10,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2');
-  
+
   var path = Npm.require('path');
   var assetPath = path.join(Version);
 
