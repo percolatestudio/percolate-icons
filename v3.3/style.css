@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'percolate';
-  src:  url('fonts/percolate.eot?he64mv');
-  src:  url('fonts/percolate.eot?he64mv#iefix') format('embedded-opentype'),
-    url('fonts/percolate.ttf?he64mv') format('truetype'),
-    url('fonts/percolate.woff?he64mv') format('woff'),
-    url('fonts/percolate.svg?he64mv#percolate') format('svg');
+  src:  url('fonts/percolate.eot?y6l7u2');
+  src:  url('fonts/percolate.eot?y6l7u2#iefix') format('embedded-opentype'),
+    url('fonts/percolate.ttf?y6l7u2') format('truetype'),
+    url('fonts/percolate.woff?y6l7u2') format('woff'),
+    url('fonts/percolate.svg?y6l7u2#percolate') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-lightbulb:before {
+  content: "\e90b";
+}
 .icon-graphql:before {
   content: "\e90a";
 }
@@ -53,27 +56,33 @@
 }
 .icon-sidebar:before {
   content: "\e900";
+  color: #000;
 }
 .icon-tablet:before {
   content: "\e901";
 }
 .icon-atmosphere:before {
   content: "\e671";
+  color: #000;
 }
 .icon-browser:before {
   content: "\e672";
 }
 .icon-database:before {
   content: "\e673";
+  color: #000;
 }
 .icon-expand-alt:before {
   content: "\e674";
+  color: #000;
 }
 .icon-mobile:before {
   content: "\e675";
+  color: #000;
 }
 .icon-watch:before {
   content: "\e676";
+  color: #000;
 }
 .icon-home:before {
   content: "\e600";
@@ -233,6 +242,7 @@
 }
 .icon-book:before {
   content: "\e634";
+  color: #000;
 }
 .icon-certificate:before {
   content: "\e636";
@@ -411,4 +421,3 @@
 .icon-meteor:before {
   content: "\e670";
 }
-
