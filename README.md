@@ -1,3 +1,5 @@
+MIGRATED TO https://github.com/meteor/chromatic
+
 === Steps for updating the font.
 
 1. Create a new font with http://icomoon.io/ [in Chrome]
