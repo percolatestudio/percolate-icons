@@ -1,20 +1,16 @@
 @font-face {
-  font-family: "percolate";
-  src: url("/packages/percolate_icons/v3.4/fonts/percolate.eot?y6l7u2");
-  src: url("/packages/percolate_icons/v3.4/fonts/percolate.eot?y6l7u2#iefix")
-      format("embedded-opentype"),
-    url("/packages/percolate_icons/v3.4/fonts/percolate.ttf?y6l7u2")
-      format("truetype"),
-    url("/packages/percolate_icons/v3.4/fonts/percolate.woff?y6l7u2")
-      format("woff"),
-    url("/packages/percolate_icons/v3.4/fonts/percolate.svg?y6l7u2#percolate")
-      format("svg");
+  font-family: 'percolate';
+  src:  url('fonts/percolate.eot?engirq');
+  src:  url('fonts/percolate.eot?engirq#iefix') format('embedded-opentype'),
+    url('fonts/percolate.ttf?engirq') format('truetype'),
+    url('fonts/percolate.woff?engirq') format('woff'),
+    url('fonts/percolate.svg?engirq#percolate') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'percolate' !important;
   speak: never;
@@ -73,7 +69,7 @@
 .icon-browser:before {
   content: "\e672";
 }
-.icon-database:before {
+.icon-database1:before {
   content: "\e673";
   color: #000;
 }

@@ -1,7 +1,7 @@
-var Version = 'v3.3';
+var Version = 'v3.4';
 
 Package.describe({
-  version: "0.0.12",
+  version: "0.0.13",
   name: "percolate:icons",
   summary: 'Icons for Percolate, version ' + Version,
   git: "https://github.com/percolatestudio/percolate-icons",
